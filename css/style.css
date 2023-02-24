@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+.nav__list {
+  list-style: none;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  grid-area: header;
+}
+.header__upper {
+  background-color: white;
+}
+
+.header__items {
+  margin-top: 10px;
+  font-size: 0.7rem;
+}
+.navbar {
+  background-color: rgba(248, 145, 159, 0.87);
+  grid-area: nav;
+}
+
+.banner_season__image {
+  height: 85px;
+  width: 100%;
+}
+
+.caja-imagen {
+  position: relative;
+}
+
+.caja-about {
+  flex: 1;
+}
+
+.caja-about__titulo {
+  color: rgba(248, 145, 159, 0.87);
+}
+
+main {
+  grid-area: main;
+}
+.banner {
+  background-color: rgba(248, 145, 159, 0.87);
+}
+.grilla1 {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+#seccion-principal {
+  background-color: white;
+  text-align: center;
+}
+
+#seccion-secundaria {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+#seccion-2 {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+#labiales-ana {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: rgba(248, 145, 159, 0.87);
+  text-align: center;
+  grid-area: footer;
+  padding-bottom: 8px;
+  color: #c0c0c0;
+  font-size: 10px;
+}
+
+.footer-sm {
+  background-color: rgba(248, 145, 159, 0.87);
+}
+
+.footer-bottom__copyright {
+  color: white;
+}
+.redes-footer {
+  color: white;
+}
+#imagen-principal {
+  background-color: white;
+  text-align: center;
+}
+.titulo-paginas {
+  color: rgba(248, 145, 159, 0.87);
+  font-size: 1.5rem;
+}
+.descripcion_nombre {
+  color: rgba(248, 145, 159, 0.87);
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.marco {
+  border: 1px solid rgba(248, 145, 159, 0.87);
+  width: 330px;
+}
+.text-area {
+  width: 290px;
+}
+.campo {
+  width: 250px;
+  height: 30px;
+}
+
+#bolso-diana {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  overflow: hidden;
+}
+
+#cantidades {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgba(248, 145, 159, 0.87);
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .header__items {
+    margin-top: 60px;
+    font-size: 1rem;
+  }
+
+  .banner_season__image {
+    height: 140px;
+    width: 100%;
+  }
+
+  .caja-about--texto {
+    font-size: 1.2rem;
+  }
+
+  .marco {
+    width: 600px;
+  }
+
+  .text-area {
+    width: 550px;
+  }
+}
+@media (min-width: 1024px) {
+  .caja-about--texto {
+    font-size: 1.4rem;
+  }
+  .newsletter__texto {
+    font-size: 1.3rem;
+  }
+  .titulo-paginas {
+    font-size: 2rem;
+  }
+
+  .subtitulo {
+    font-size: 1.2rem;
+  }
+  .tabla {
+    width: 40%;
+  }
+  .sizing-advert {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .sc-advert {
+    font-size: 1.3rem;
+  }
+
+  .sc-subtitulo {
+    font-size: 1.3rem;
+  }
+
+  .sc-texto {
+    font-size: 1.1rem;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .how-to__text {
+    font-size: 1.2rem;
+  }
+}
