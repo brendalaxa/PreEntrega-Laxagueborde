@@ -1,0 +1,12 @@
+.caja-imagen {
+  position: relative;
+}
+.caja-about {
+  flex: 1;
+}
+.caja-about__titulo {
+  color: $primary-color;
+}
+.caja-about--texto {
+  font-size: 1.2rem;
+}
